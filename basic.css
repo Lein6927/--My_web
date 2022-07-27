@@ -1,34 +1,57 @@
+* {
+  /*@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Fira+Sans+Extra+Condensed:ital,wght@1,700&family=Philosopher:wght@700&display=swap");*/
 
-*{
-    /*border: solid 1px;*/
-    
-    background-color: #EEE;
+  background-color: #eee;
 }
-nav{
-    margin-left: 50px;
-}
-
-
-#top_container{
-    margin-left: 50px;
-    margin-bottom: 10px;
-    padding-bottom:10px ;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-#program_list{
-    margin-left: 50px;
-    margin-top: 10px;
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 180px;
+}
+.wrapper-content {
+  box-sizing: border-box;
+  width: 1024px;
+}
+#logo {
+  margin-left: 50px;
+}
+nav {
+  border: solid 1px #666;
+  width: 330px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-table{
-    border: solid 1px #666;
-    width: 800px;
-    /*margin-left:50px ;*/
+#top_container {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
-table tr{
-    border: solid 1px #666;
+
+/*專案一覽*/
+
+#program_list {
+  margin-left: 50px;
+  margin-top: 10px;
 }
-.table1 td{
-    border: solid 1px #666;
-    width: 80px;
+
+table {
+  border: solid 1px #666;
+  width: 800px;
+  /*margin-left:50px ;*/
+}
+table tr {
+  border: solid 1px #666;
+}
+.table1 td {
+  border: solid 1px #666;
+  width: 80px;
 }
