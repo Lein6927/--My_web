@@ -4,93 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>site-web</title>
-    <link rel="stylesheet" href="./basic.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./basic_index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script>
-      import { num } from "./js/index";
-    </script>
-    <!--
-    <script src="basic.js">
-      import '/modules/my-module.js';
-    </script>
-    -->
   </head>
-
   <body>
+    <!--導覽列-->
     <header>
       <div class="header-content wrapper-content">
-        <div id="logo">Logo</div>
-        <nav>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="https://github.com/">Github</a>
+        <div class="logo">Lein</div>
+        <nav class="header-nav">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="sort.html">Program</a>
         </nav>
       </div>
     </header>
-    <div id="top_container">
-      <img src="" alt="" />
-      <h4>Hi I'm Lein</h4>
-      <p>I am an article.</p>
-      <p>I try to make something cool.</p>
-      <p>This website sorted all of my program.</p>
-    </div>
-
-    <!--專案一覽-->
-    <div id="program_list">
-      <div class="table1">
-        <table>
-          <tr>
-            <td>號碼</td>
-            <td>專案名稱</td>
-            <td>專案一覽</td>
-            <td>備註</td>
-          </tr>
-        </table>
+    <!--個人介紹版面-->
+    <main>
+      <section class="section_myself">
+        <div class="wrapper-content primary-content">
+          <div class="wrapper-text">
+            <!--左邊的東西-->
+            <h4>Hi I'm Lein</h4>
+            <p>I am an article.</p>
+            <p>I try to make something cool.</p>
+            <p>This website sorted all of my program.</p>
+          </div>
+          <!--右邊圖案-->
+          <img class="wrapper-img" src="./img/插圖600X600(去背).png" alt="" />
+        </div>
+      </section>
+    </main>
+    <!--作品展示區-->
+    <section>
+      <div class="program-content wrapper-content">
+        <h2>My Program</h2>
+        <div class="programs-area">
+          <!--專案都放在area這個區域-->
+          <!--第一個-->
+          <div class="program">
+            <a href="sort.html">
+              <img
+                src="https://peiyunlee.github.io/ithome-21ironman-personalwebsite/assets/images/selected-work-1.png"
+                alt="測試1"
+            /></a>
+            <div class="wrapper-work-area">
+              <h3>作品集合區</h3>
+              <p class="ps">Program01</p>
+              <p class="text-main">條列式呈現所有作品</p>
+              <a href="#">More</a>
+            </div>
+          </div>
+          <!--第二個-->
+          <div class="program">
+            <a href="">
+              <img
+                src="https://peiyunlee.github.io/ithome-21ironman-personalwebsite/assets/images/selected-work-1.png"
+                alt="測試1"
+            /></a>
+            <div class="wrapper-work-area">
+              <h3>作品2</h3>
+              <p class="ps">Program02</p>
+              <p class="text-main">
+                這是一段說明文字這是一段說明文字這是一段說明文字
+              </p>
+              <a href="#">More</a>
+            </div>
+          </div>
+          <!--第三個-->
+          <div class="program">
+            <a href=""
+              ><img
+                src="https://peiyunlee.github.io/ithome-21ironman-personalwebsite/assets/images/selected-work-1.png"
+                alt="測試1"
+            /></a>
+            <div class="wrapper-work-area">
+              <h3>作品3</h3>
+              <p class="ps">Program03</p>
+              <p class="text-main">
+                這是一段說明文字這是一段說明文字這是一段說明文字
+              </p>
+              <a href="#">More</a>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="table1">
-        <table>
-          <tr>
-            <td>00</td>
-            <td>專案集合</td>
-            <td>
-              <a href="https://lein6927.github.io/Myweb_project/">專案一覽</a>
-            </td>
-            <td>所有專案都在這裡</td>
-          </tr>
-        </table>
+    </section>
+    <!--自我介紹-->
+    <main>
+      <section class="about">
+        <div class="about-content wrapper-content">
+          <h2>About</h2>
+        </div>
+        <div class="wrapper-about">
+          <img src="./img/插圖600X600.jpg" alt="" />
+          <div class="about-text">
+            <p>
+              我專攻前端網站架構，規劃版面設計，曾經嘗試過App及網頁的開發，目前正在學習並嘗試各種前端的可能性，並學習UI/UX各種版面設計。
+            </p>
+            <div class="about-ul">
+              <ul>
+                <li class="li-title">Used Technologies</li>
+                <li>Git/Github</li>
+                <li>Java Script</li>
+                <li>Vue</li>
+                <li>React</li>
+                <li>C#</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content wrapper-content">
+        <div class="logo">Lein</div>
+        <div class="footer-area">© 2022 Lein,LIU</div>
       </div>
-
-      <div class="table1">
-        <table>
-          <tr>
-            <td>01</td>
-            <td>屏東果果</td>
-            <td>
-              <a href="https://lein6927.github.io/Pingtungogo_202111/">
-                屏東果果</a
-              >
-            </td>
-            <td>目前較為完整的專案</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="table1">
-        <table>
-          <tr>
-            <td>02</td>
-            <td>02</td>
-            <td>
-              <a href="#">空專案</a>
-            </td>
-            <td>空專案</td>
-          </tr>
-        </table>
-      </div>
-      <!--專案結束-->
-    </div>
+    </footer>
   </body>
 </html>
